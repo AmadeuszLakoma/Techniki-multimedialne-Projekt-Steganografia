@@ -16,6 +16,7 @@ namespace SteganografiaTM
         string kod;
         public OKNO()
         {
+
             InitializeComponent();
         }
 
@@ -53,7 +54,7 @@ namespace SteganografiaTM
               int  i = 0;
               
                
-                FileStream PLIKBIN = new FileStream(@"C:\RM\f.txt", FileMode.Create);
+                FileStream PLIKBIN = new FileStream(@"f.txt", FileMode.Create);
                
                 for (i = 1; i <= w; i++)
                 {
@@ -100,7 +101,7 @@ namespace SteganografiaTM
                 BIN();
                 int licznik = 0;
 
-                foreach (string linie in File.ReadLines(@"C:\RM\f.txt"))//ile lini
+                foreach (string linie in File.ReadLines(@"f.txt"))//ile lini
                 {
                     if (linie != String.Empty) ++licznik;
                 }
