@@ -1,9 +1,9 @@
 var indexSectionsWithContent =
 {
-  0: "dops",
+  0: "dkops",
   1: "o",
   2: "s",
-  3: "op",
+  3: "kop",
   4: "do"
 };
 
@@ -19,7 +19,7 @@ var indexSectionNames =
 var indexSectionLabels =
 {
   0: "Wszystko",
-  1: "Klasy",
+  1: "Struktury Danych",
   2: "Przestrzenie nazw",
   3: "Pliki",
   4: "Funkcje"
